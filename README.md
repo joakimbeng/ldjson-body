@@ -4,6 +4,8 @@
 
 > Get a stream for a line delimited json response body in the browser, compatible with [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
+*Based on the JSON chunk parser from [eBay's `jsonpipe`](https://github.com/eBay/jsonpipe)*
+
 ## Installation
 
 Install `ldjson-body` using [npm](https://www.npmjs.com/):
@@ -76,7 +78,7 @@ Emitted when the whole body have been read and parsed.
 
 ## License
 
-MIT © [Joakim Carlstein](http://joakim.beng.se)
+MIT © [Joakim Carlstein](http://joakim.beng.se) and eBay Inc
 
 [npm-url]: https://npmjs.org/package/ldjson-body
 [npm-image]: https://badge.fury.io/js/ldjson-body.svg
