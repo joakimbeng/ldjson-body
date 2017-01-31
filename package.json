@@ -1,0 +1,50 @@
+{
+  "name": "ldjson-body",
+  "version": "0.1.0",
+  "description": "Get a stream for a line delimited json response body in the browser, compatible with Fetch",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/ldjson-body.git"
+  },
+  "keywords": [
+    "fetch",
+    "ldjson",
+    "line delimited json",
+    "response",
+    "body",
+    "stream",
+    "browser"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@beng.se",
+    "url": "http://joakim.beng.se"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/ldjson-body/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/ldjson-body#readme",
+  "xo": {
+    "envs": [
+      "browser"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "standard-version": "^4.0.0",
+    "text-encoding": "^0.6.4",
+    "xo": "^0.17.1"
+  },
+  "dependencies": {
+    "mitt": "^1.0.1"
+  }
+}
