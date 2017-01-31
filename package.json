@@ -1,6 +1,6 @@
 {
   "name": "ldjson-body",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get a stream for a line delimited json response body in the browser, compatible with Fetch",
   "main": "src/index.js",
   "directories": {
